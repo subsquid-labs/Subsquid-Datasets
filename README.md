@@ -64,10 +64,8 @@ Now you can query desired block range file using duck db:
 
 # Dataset URLS
 
-    Hexadecimal String Format
-
+- Hexadecimal String Format
 - [http://all-contracts-eth-hex.sqd-datasets.io](http://all-contracts-eth-hex.sqd-datasets.io)
 
-  Binary Format
-
+- Binary Format
 - [http://all-contracts-eth-v2.sqd-datasets.io](http://all-contracts-eth-v2.sqd-datasets.io)
