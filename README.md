@@ -34,7 +34,7 @@ Bin Format Contracts Dataset
 | transaction_hash | BINARY  | hash of the transaction where contract was created |
 | contract_address | BINARY  | address of the deployed cotract                    |
 | deployer         | BINARY  | EOA that deployed the contract                     |
-| factory          | BINARY  | the from field in the creatio trace                |
+| factory          | BINARY  | the `from` field in the creatio trace              |
 | init_code        | BINARY  | initialization bytecode of contract                |
 | code             | BINARY  | bytecode of contract                               |
 | init_code_hash   | BINARY  | keccak hash of contract initialization code        |
@@ -50,7 +50,7 @@ Hex Format Contracts Dataset
 | transaction_hash | STRING  | hash of the transaction where contract was created |
 | contract_address | STRING  | address of the deployed cotract                    |
 | deployer         | STRING  | EOA that deployed the contract                     |
-| factory          | STRING  | the from field in the creatio trace                |
+| factory          | STRING  | the `from` field in the creatio trace              |
 | init_code        | STRING  | initialization bytecode of contract                |
 | code             | STRING  | bytecode of contract                               |
 | init_code_hash   | STRING  | keccak hash of contract initialization code        |
@@ -58,31 +58,14 @@ Hex Format Contracts Dataset
 
 # Querying
 
-# Documentation and Useful Links
+List Objects in the bucket using AWS SDK. Prefixes represent block ranges.
+Now you can query desired block range file using duck db:
+`SELECT * FROM 'https://all-contracts-eth-hex.sqd-datasets.io/0000000000-0000646199/contracts.parquet';`
 
-- [How To Create a Squid](https://docs.subsquid.io/tutorials/)
-- [How To Query a Squid](https://docs.subsquid.io/query-squid/)
-- [How To Deploy a Squid](https://docs.subsquid.io/deploy-squid/)
-- [How To query a Squid From an Application](https://thegraph.com/docs/en/querying/querying-from-an-application/)
-- [How to Create a Squid for EVM chains](https://docs.subsquid.io/examples/evm/)
-- [How to Use Subsquid with Substrate](https://docs.subsquid.io/examples/substrate/)
-- [Subsquid vs The Graph](https://docs.subsquid.io/migrate/subsquid-vs-thegraph/)
-- [Supported Networks](https://docs.subsquid.io/evm-indexing/supported-networks/)
-- [Giant Squid API](https://docs.subsquid.io/giant-squid-api/)
-- [Developer FAQs](https://docs.subsquid.io/faq/)
+# Dataset URLS
 
-# Tutorials
+Hexadecimal String Format
 
-- [Subsquid Basics](https://docs.subsquid.io/basics/)
-- [How to Index Bored Ape Yacht Club NFTs](https://docs.subsquid.io/tutorials/bayc/)
-- [How to Create a Simple Substrate Squid](https://docs.subsquid.io/tutorials/create-a-simple-squid/)
-- [How to Index ink! Contract with Subsquid](https://docs.subsquid.io/tutorials/create-a-wasm-processing-squid/)
-- [How to Build Full-Stack NFT Marketplace with Subsquid](https://www.youtube.com/watch?v=Kt8qDmREDKU&ab_channel=subsquid)
-- [Subsquid Academy](https://www.youtube.com/watch?v=x4fEP0KJ3OE&list=PLH2948XqklrgTvG6-ro3eqS17j7n_raiN&ab_channel=subsquid)
-- [How to Streamline Cross-Chain and EVM Processing with Subsquid](https://academy.moonbeam.network/p/moonbeam-subsquid)
-- [How to Build Defi Dashaboard using Subsquid](https://www.youtube.com/watch?v=KVabPQqdKno&ab_channel=subsquid)
-- [How to Analyze Lens Protocol using Subsquid SDK](https://www.youtube.com/watch?v=6xAEEwlNm4E&ab_channel=subsquid)
-
-# GitHub Repositories
-
-- [Sample Squid Indexing Transactions To and From vitalik.eth](https://github.com/subsquid-labs/evm-transactions-example)
+- [http://all-contracts-eth-hex.sqd-datasets.io](http://all-contracts-eth-hex.sqd-datasets.io)
+  Binary Format
+- [http://all-contracts-eth-v2.sqd-datasets.io](http://all-contracts-eth-v2.sqd-datasets.io)
