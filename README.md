@@ -69,9 +69,10 @@ Now you can query desired block range file using duck db:
 - `aws_secret_access_key = 'f5c86d7e82445f2b64bd9e260dbbc7fc2042126793149c1ab6c1d7b4672eb224'`
 
 - Hexadecimal String Format
-- bucket name: all-contracts-hex
-- [http://all-contracts-eth-hex.sqd-datasets.io](http://all-contracts-eth-hex.sqd-datasets.io)
+
+  - bucket name: all-contracts-hex
+  - [http://all-contracts-eth-hex.sqd-datasets.io](http://all-contracts-eth-hex.sqd-datasets.io)
 
 - Binary Format
-- bucket name: all-contracts-eth-v2
-- [http://all-contracts-eth-v2.sqd-datasets.io](http://all-contracts-eth-v2.sqd-datasets.io)
+  - bucket name: all-contracts-eth-v2
+  - [http://all-contracts-eth-v2.sqd-datasets.io](http://all-contracts-eth-v2.sqd-datasets.io)
