@@ -64,9 +64,9 @@ Now you can query desired block range file using duck db:
 
 # Dataset Access
 
-`endpoint_url = 'https://7a28e49ec5f4a60c66f216392792ac38.r2.cloudflarestorage.com',`
-`aws_access_key_id = '37d38a72f67e6c2e6afae800b9ba8f1f',`
-`aws_secret_access_key = 'f5c86d7e82445f2b64bd9e260dbbc7fc2042126793149c1ab6c1d7b4672eb224'`
+- `endpoint_url = 'https://7a28e49ec5f4a60c66f216392792ac38.r2.cloudflarestorage.com',`
+- `aws_access_key_id = '37d38a72f67e6c2e6afae800b9ba8f1f',`
+- `aws_secret_access_key = 'f5c86d7e82445f2b64bd9e260dbbc7fc2042126793149c1ab6c1d7b4672eb224'`
 
 - Hexadecimal String Format
 - bucket name: all-contracts-hex
