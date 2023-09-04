@@ -62,10 +62,16 @@ List Objects in the bucket using AWS SDK. Prefixes represent block ranges.
 Now you can query desired block range file using duck db:
 `SELECT * FROM 'https://all-contracts-eth-hex.sqd-datasets.io/0000000000-0000646199/contracts.parquet';`
 
-# Dataset URLS
+# Dataset Access
+
+- endpoint_url = 'https://7a28e49ec5f4a60c66f216392792ac38.r2.cloudflarestorage.com',
+- aws_access_key_id = '37d38a72f67e6c2e6afae800b9ba8f1f',
+- aws_secret_access_key = 'f5c86d7e82445f2b64bd9e260dbbc7fc2042126793149c1ab6c1d7b4672eb224'
 
 - Hexadecimal String Format
+- bucket name: all-contracts-hex
 - [http://all-contracts-eth-hex.sqd-datasets.io](http://all-contracts-eth-hex.sqd-datasets.io)
 
 - Binary Format
+- bucket name: all-contracts-eth-v2
 - [http://all-contracts-eth-v2.sqd-datasets.io](http://all-contracts-eth-v2.sqd-datasets.io)
