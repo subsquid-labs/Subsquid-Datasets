@@ -34,7 +34,7 @@ Bin Format Contracts Dataset
 | transaction_hash | BINARY  | hash of the transaction where contract was created |
 | contract_address | BINARY  | address of the deployed cotract                    |
 | deployer         | BINARY  | EOA that deployed the contract                     |
-| factory          | BINARY  | the `from` field in the creatio trace              |
+| factory          | BINARY  | the `from` field in the creation trace             |
 | init_code        | BINARY  | initialization bytecode of contract                |
 | code             | BINARY  | bytecode of contract                               |
 | init_code_hash   | BINARY  | keccak hash of contract initialization code        |
@@ -50,7 +50,7 @@ Hex Format Contracts Dataset
 | transaction_hash | STRING  | hash of the transaction where contract was created |
 | contract_address | STRING  | address of the deployed cotract                    |
 | deployer         | STRING  | EOA that deployed the contract                     |
-| factory          | STRING  | the `from` field in the creatio trace              |
+| factory          | STRING  | the `from` field in the creation trace             |
 | init_code        | STRING  | initialization bytecode of contract                |
 | code             | STRING  | bytecode of contract                               |
 | init_code_hash   | STRING  | keccak hash of contract initialization code        |
