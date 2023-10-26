@@ -1,13 +1,13 @@
 # Ethereum Contracts Dataset
 
-This is a dataset of all historical USDT transfers on Binance Smart Chain.
+This is a dataset of all historical USDC transfers on Binance Smart Chain.
 
 # Usage
 
 Some example uses of this dataset include:
 
-- look up USDT amounts transferred to an address
-- analyze distribution of USDT transfers over time
+- look up USDC amounts transferred to an address
+- analyze distribution of USDC transfers over time
 
 # Schema
 
@@ -31,10 +31,10 @@ Now you can query desired block range file using duck db:
 # Dataset Access
 
 - `endpoint_url = 'https://7a28e49ec5f4a60c66f216392792ac38.r2.cloudflarestorage.com',`
-- `aws_access_key_id = '4836dd55b4430430496abc240a56cd41',`
-- `aws_secret_access_key = '2ac5990e5e6416be916dd4accb77cc158426285cd8552a14d6d5a52d6a65630c'`
+- `aws_access_key_id = '1f25ab4babdb705e3f184709dc88c837',`
+- `aws_secret_access_key = '0e853ebdf7872e96cb845f64237c14f1c29131c09565b5a610923526aea06791'`
 
 - Bucket info
 
-  - bucket name: busdt-transfers
-  - [https://busdt-transfers.sqd-datasets.io](https://busdt-transfers.sqd-datasets.io)
+  - bucket name: busdc-transfers
+  - [https://busdc-transfers.sqd-datasets.io](https://busdc-transfers.sqd-datasets.io)
