@@ -21,3 +21,7 @@ Collection of blockchain datasets gatherd with Squid SDK.
 - [`bnb-native-transfers`](https://github.com/subsquid-labs/Subsquid-Datasets/tree/main/bnb-native-transfers): all native BNB transfers on Binance Smart Chain
 - [`bnb-usdc-transfers`](https://github.com/subsquid-labs/Subsquid-Datasets/tree/main/bnb-transfers-usdc): all native USDC transfers on Binance Smart Chain
 - [`bnb-usdt-transfers`](https://github.com/subsquid-labs/Subsquid-Datasets/tree/main/bnb-transfers-usdt): all native USDT transfers on Binance Smart Chain
+
+## Usage
+
+This repository contains bucket information for parquet datasets, Puthon notebooks with example usage and the Squids used to gather the data.
