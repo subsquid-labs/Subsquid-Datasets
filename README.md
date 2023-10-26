@@ -12,7 +12,7 @@
 
 # Subsquid Datasets Repo
 
-Collection of blockchain datasets gatherd with Squid SDK.
+Collection of blockchain datasets gathered with Squid SDK.
 
 ## Datasets
 
