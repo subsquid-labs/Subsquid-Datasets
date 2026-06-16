@@ -5,9 +5,7 @@
 </picture>
 </p>
 
-[![Discord](https://img.shields.io/discord/1031524867910148188?color=%237289DA&label=discord)](https://discord.gg/subsquid)
-
-[Website](https://sqd.dev) | [Docs](https://docs.sqd.dev) | [Discord](https://discord.gg/subsquid)
+[Website](https://sqd.dev) | [Docs](https://docs.sqd.dev) 
 
 # SQD Datasets Repo
 
